@@ -14,7 +14,7 @@
   <ul>
     {{#each burger}}
       {{#if devoured}}
-        {{> burgers/uneaten-burger-block devoured=true}}
+        {{> burgers/eaten-burger-block devoured=true}}
       {{/if}}
     {{/each}}
   </ul>
@@ -26,8 +26,8 @@
 <form class="create-form">
 
   <div class="form-group">
-    <label for="ca">Burger Name:</label>
-    <input type="text" id="ca" name="name">
+    <label for="burgeradd">Burger Name:</label>
+    <input type="text" id="burgeradd" name="name">
   </div>
 
   <button type="submit">Add Burger</button>
