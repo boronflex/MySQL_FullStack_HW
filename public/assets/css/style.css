@@ -4,6 +4,24 @@ li {
   background: #faebd7;
 }
 
+h1,h2 {
+  text-align: center;
+}
+
+button {
+  margin: auto;
+  width: 100%;
+}
+
+.add-burger-form {
+  margin: auto;
+  width: 18%;
+}
+
+.form-group {
+  text-align: center;
+}
+
 .label {
   font-weight: bold;
 }
@@ -16,4 +34,9 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+
+.burger-section {
+  float:left;
+  width: 33%
 }
